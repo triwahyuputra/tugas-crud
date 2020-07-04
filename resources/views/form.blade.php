@@ -1,7 +1,8 @@
 @extends('adminlte.master')
 
 @section('content')
-<form action="/pertanyaan" method="POST">
+<h3 class="ml-3 mt-3">Buat Pertanyaan</h3>
+<form action="/pertanyaan" method="POST" class="ml-3 mt-3">
     @csrf
     <div class="form-group">
         <label for="judul">Judul:</label>
